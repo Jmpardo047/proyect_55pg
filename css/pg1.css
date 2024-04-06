@@ -6,6 +6,7 @@
     justify-content: center;
     gap: 2em;
     height: 100vh;
+    padding-bottom: 3em;
 }
 .top_txt{
     display: flex;
@@ -14,8 +15,8 @@
     align-items: center;
     text-align: center;
     gap: 0.5em;
-    width: 35%;
-    font-size: 0.8em;
+    width: 60%;
+    font-size: 1.3em;
     h1{
         line-height: 1.5em;
         font-size: 2.5em;

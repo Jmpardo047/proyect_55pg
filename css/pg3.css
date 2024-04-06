@@ -3,6 +3,7 @@
     flex-direction: column; 
     gap: 1em;
     overflow-x: hidden;
+    margin-bottom: 1em;
 }
 #content_1{
     height: 50%;
@@ -56,7 +57,7 @@
         font-size: 1.3em;
         align-items: center;
         padding: 0 4em;
-        padding-top: 2em;
+        padding-top: 1em;
         gap: 2em;
     }
     #item1{
