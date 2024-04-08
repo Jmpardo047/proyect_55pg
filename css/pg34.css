@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+}
+    
+
+
+body{
+    margin: 29px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 760px;
+    border: solid 1px;
+}
+.left button{
+    color: white;
+    background-color: rgba(26, 25, 25, 0.925);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+    box-shadow: black 8px 8px 0 0;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 70px;
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+    margin: 0;
+}
+.titulo{
+    grid-column: span 2;
+    text-align: center;
+    border: solid 1px black;
+}
+.left{
+    border: 1px solid black;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.left p{
+    font-size: 25px;
+}
+.barra{
+    display: flex;
+    border: solid 2px black ;
+    border-radius: 30px;
+    margin: 20px 100px 20px 0;
+    padding: 20px;
+    justify-content: space-around;
+}
+h3{
+    font-size: 25px;
+    margin: 0;
+}
+.text p{
+    font-size: 20px;
+    margin: 0;
+}
+.cuadro img{
+    margin: 30px 0;
+
+}
+.right{
+    display: grid;
+    grid-template-columns: 1fr 261px 1fr;
+    grid-template-rows: 259px 262px 259px;
+    border: solid 1px black;
+}
+.vacio{
+    grid-row: span 3;
+}
+.Star img{
+    position: absolute;
+}
+.Star p{
+    font-size: 25px;
+    margin: 73px;
+}
+.img2{
+    grid-row: span 2;
+}
+
+
+
