@@ -1,0 +1,128 @@
+html{
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+    padding:3em 2em;
+}
+.sect:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    font-size: 1.3em;
+}
+.button {
+    display: flex;
+    align-self: center; 
+    align-items: center;
+    border-radius: 1.7em;
+    justify-content: center;
+    width: 10em;
+    height: 3em;
+    background-color: rgb(255, 222, 129);
+    color: black;
+    cursor: pointer;
+    margin-bottom: 1em;
+    p{
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    background-color: rgb(73, 52, 47);
+    border-radius: 2em;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: white;
+    font-size: 0.8em;
+    gap: 1em;
+    hr{
+        height: 0.3em;
+        width: 30%;
+        background-color: white;
+    }
+}
+.sect:last-child{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.img_cont{
+    width: 100vw;
+    height: 50vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media(min-width:800px){
+    .content{
+        flex-direction: row;
+        gap: 0;
+    }
+    .sect:first-child{
+        width: 100%;
+        padding-left: 8em;
+    }
+    .info{
+        text-align: left;
+        align-items: flex-start;
+        font-size: 2em;
+        padding-left: 5em;
+        margin-top: 5em;
+    }
+    .button{
+        align-self: flex-start;
+    }
+    .sect:last-child{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-right: 8em;
+    }
+    .img_cont{
+        width: 90%;
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .list{
+        height: 20vh;
+        flex-direction: row;
+        padding-left: 2em;
+        width: 100%;
+    }
+    .item{
+        align-items: flex-start;
+    }
+}
