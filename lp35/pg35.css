@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 *{
-    font-family: "Lato", sans-serif;
+    font-family: "Zilla Slab", serif;
 }
 .container{
     display: flex;
@@ -57,26 +57,26 @@ h1{
     padding: 5px;
 }
 .img2{
-    background-image: url("img35/woman1.png");
+    background-image:url("pg35/woman1.png")
 }
 .img3{
     padding: 18px 0;
     background-color: #EFBDD9;
 }
 .img4{
-    background-image: url("img35/men.png");
+    background-image: url("pg35/men.png");
     grid-row: span 2;
 }
 .img5{
-    background-image: url("img35/woman2.png");
+    background-image: url("pg35/woman2.png");
     grid-column: span 2;
 }
 .img6{
-    background-image: url("img35/woman4.png");
+    background-image: url("pg35/woman4.png");
     grid-row: span 2;
 }
 .img7{
-    background-image: url("img35/woman3.png");
+    background-image: url("pg35/woman3.png");
 }
 .img8{
     background-color: #79BBE3;

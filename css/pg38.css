@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    
+}
+.titulo{
+    display: flex;
+    color: rgb(46, 46, 46);
+}
+.yha{
+    color: rgb(46, 46, 46)
+}
+.verde{
+    color: #437223;
+    margin: 10px 15px;
+}
+.info{
+    background-color: #F2F2F2;
+    width: 850px;
+    height: 630px;
+    margin-right: 40px;
+    border-bottom-right-radius: 220px;
+    top: 0;
+    left: 0;
+    padding: 50px 30px 0 40px;
+}
+h1{
+    font-size: 45px;
+    margin: 10px 0 0 ;
+}
+.info p{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.info button{
+    color: white;
+    background-color: #437223;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-bottom: 40px;
+}
+.cuadros{
+    display: flex;
+    margin: 40px 0;
+}
+.circle{
+    position: relative;
+    width: 120px;
+    left: 600px;
+    top: 100px;
+}
+.cuadro{
+    margin: 0  25px 0 0;
+}
+.cuadro p{
+    font-size: 20px;
+    
+}
+.images{
+    position: relative;
+    right: 90px;
+    bottom: 80px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.footer p{
+    margin-left: 30px;
+    font-size: 18px;
+}
+.bar{
+    display: flex;
+    border: solid 2px rgb(73, 73, 73);
+    padding: 18px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+@media (min-width:1400px) {
+    .images{
+        bottom: -90px;
+        right: 130px;
+    }
+    .info{
+        height: 700px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .circle{
+        top: -520px;
+        left: 700px;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+        height: 850px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .bar{
+        margin: 20px;
+    }
+    .bar p{
+        font-size: 16px;
+    }
+    .plant{
+        width: 400px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .titulo{
+        flex-direction: column;
+    }
+    .verde{
+        margin: 0;
+    }
+}
