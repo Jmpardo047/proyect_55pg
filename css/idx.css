@@ -1,0 +1,87 @@
+body{
+    background: rgb(9,33,44);
+    background: linear-gradient(180deg, rgba(9,33,44,1) 0%, rgba(4,62,73,1) 100%);
+    background-size: cover;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 3em ;
+    animation: mostrar 2s ease-in-out 0s 1 normal forwards;
+    opacity: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0;
+    animation: liner 1s ease-in 1.5s 1 normal forwards;
+    h1{
+        font-size: 5em;
+        color: white;
+    }
+}
+.links{
+    align-self: center;
+    width: 95%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 1em;
+}
+.item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.228);
+
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+}
+.item:hover{
+    animation: rotar 1s ease-in-out 0s 1 normal forwards;
+}
+@keyframes rotar {
+    0%{
+        transform: rotateY(45deg);
+        border: solid 2px aqua;
+    }
+    50%{
+        border: solid 2px aqua;
+    }
+    100%{
+        transform: rotateY(360deg);
+        border: solid 2px aqua;
+    }
+}
+@keyframes mostrar {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes liner {
+    0%{
+        opacity: 0;
+        height: 0%;
+    }
+    100%{
+        opacity: 1;
+        height: 100%;
+    }
+}
